@@ -1,0 +1,19 @@
+.faqcard{
+     width:900px;
+    
+    padding:20px;
+    margin:15px auto;
+    border-radius:30px;
+    
+    background-color: rgba(179, 107, 1, 0.662);
+}
+.question {
+    display:flex;
+    cursor:pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+.faqcard p{
+    font-weight: 200;
+    text-align: left;
+}

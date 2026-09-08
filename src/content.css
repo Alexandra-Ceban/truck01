@@ -1,0 +1,166 @@
+.ourmission,
+.detailscar {
+    width: 100%;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.imagecar
+{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+     filter: blur(2px);
+     transform: scale(1.05);
+}
+
+.mission {
+    position: absolute;
+    right: 1%;
+    top: 40%;
+    transform: translateY(-50%);
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    z-index: 1;
+}
+
+.mission h1 {
+    font-size: 56px;
+    margin: 0;
+}
+
+.mission h3 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.gold {
+    color: rgba(179, 107, 1, 0.962);
+}
+
+.mission button {
+    background-color: rgba(179, 107, 1, 0.962);
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.mission button:hover {
+    background-color: rgba(255, 194, 104, 0.962);
+}
+.detailscar h2{ 
+    text-align: center; 
+  
+    color:rgba(255, 255, 255, 0.846); 
+   
+    font-size: 30px; } 
+
+    .detailscar::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: rgba(156, 156, 154, 0.25);
+    border-radius: 50%;
+    top: -100px;
+    left: -80px;
+}
+
+.detailscar::after {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background: rgba(77, 76, 75, 0.15);
+    border-radius: 50%;
+    right: -180px;
+    bottom: -180px;}
+
+
+.detail-container{ 
+    background-color:rgba(179, 107, 1, 0.770);
+     position: relative;
+      z-index: 1;
+       width: 50%;
+        height:63%; 
+        display:flex;
+         flex-direction:column;
+          margin:2em auto;
+        margin-left:12em; 
+        gap:1em; 
+    
+        border-radius:60px;}
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(124, 123, 122, 0.2);
+    z-index: 0;
+}
+
+.circle1 {
+    width: 250px;
+    height: 250px;
+    top: -80px;
+    left: -60px;
+}
+
+.circle2 {
+    width: 400px;
+    height: 400px;
+    right: -150px;
+    top: 100px;
+}
+
+.circle3 {
+    width: 180px;
+    height: 180px;
+    bottom: -70px;
+    left: 35%;
+    background-color: rgba(15, 14, 14, 0.12);
+}
+
+.label1{ display:flex;
+     align-items: center;
+      gap:1em; } 
+.label1 input{ width:240px;
+     height:40px; 
+     padding-left: 1em; 
+     font-style: italic;
+      border-radius: 30px; 
+      border-color: rgba(179, 107, 1, 0.962);
+       font-size: 15px; }
+
+.label1 label{ text-align:left;
+     font-size: 21px; 
+     margin-left:2em; 
+     font-style: bold; 
+     color:rgba(255, 255, 255, 0.839); 
+    }
+ .buttonnext{ display:flex; 
+        align-items: center;
+         justify-content: center;
+          background-color:rgba(179, 107, 1, 0.962);
+           width:100px;
+            height:40px;
+         border-radius: 40px;
+         margin: 0 auto; 
+         margin-top:2em; 
+         cursor:pointer; 
+         transition: ease 0.4s; 
+        position: relative;}
+.buttonnext a{ 
+    text-decoration:none; 
+    font-size: 23px; 
+    color:white; } 
+.buttonnext:hover{ background-color:rgba(255, 194, 104, 0.962); }
